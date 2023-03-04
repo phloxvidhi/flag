@@ -1,0 +1,44 @@
+
+body, html{
+    padding: 0;
+    margin: 0;
+}
+ 
+  .stripe {
+    background-color: #001489;
+    width: 100%;
+    height: calc(100% / 9);
+}
+.stripe--white {
+    background-color: white;
+}
+.blue-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    height: calc((100% /9) * 5);
+    width: 40vw;
+    background-color: #001489;
+    
+}
+.white-stripe-over-h{
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    top : calc(100% /9 *2);
+    left:0;
+    height: calc(100% /9);
+    width:40vw
+}
+
+.white-stripe-over-v{
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    top :0;
+    left: 15%;
+    height: calc((100vh /9)*5);
+    width:calc(100vh/9);
+    
+}
